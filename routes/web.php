@@ -16,6 +16,7 @@ Route::get('/', 'FontController@index');
 Route::get('login','FontController@login');
 Route::get('register','FontController@register');
 Route::get('ayuda','FontController@ayuda');
+Route::get('denuncias','FontController@denuncias');
 
 /*Route::get('/', function () {
     return view('principal');
